@@ -33,11 +33,11 @@ class BotHandler:
         return last_update
 
 
-greet_bot = BotHandler(token)  
-greetings = ('hello', 'hi', 'greetings', 'sup')  
+greet_bot = BotHandler(token)
+greetings = ('hello', 'hi', 'greetings', 'sup')
 
 
-def main():  
+def main():
     new_offset = None
 
     while True:
@@ -55,7 +55,7 @@ def main():
 
         new_offset = last_update_id + 1
 
-if __name__ == '__main__':  
+if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
