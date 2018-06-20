@@ -1,6 +1,6 @@
 import requests
 import datetime
-from parser_level_upper_capacity import parser_level_capacity
+#from parser_level_upper_capacity import parser_level_capacity
 
 token = "576196945:AAFdAZEDTrcOA1l7VCMt8J-1MJiAxOHztws"
 
