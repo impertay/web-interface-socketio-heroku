@@ -52,6 +52,9 @@ def main():
 
         if last_chat_text.lower() in greetings:
             greet_bot.send_message(last_chat_id, 'Good Morning  {}'.format(last_chat_name))
+        
+        elif parser_level_capacity()['upper_capacity'] > 90:
+            greet_bot.send_message(last_chat_id, 'Уровень превышен!!! Сейчас в верхнем баке: {}'.format(parser_level_capacity()['upper_capacity']))
 
         new_offset = last_update_id + 1
 
