@@ -1,6 +1,7 @@
 import requests
+from parser_level_upper_capacity import parser_level_capacity
 
-token = "576196945:AAFdAZEDTrcOA1l7VCMt8J-1MJiAxOHztws"
+token = "606976200:AAGpWn0t-K4Xido9b176QtxlQVrwaxR4rT8"
 
 class BotHandler:
 
